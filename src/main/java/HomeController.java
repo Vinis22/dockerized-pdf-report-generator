@@ -6,6 +6,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Bem-vindo à aplicação!";
+        return "Welcome to the application!";
     }
 }

@@ -7,7 +7,7 @@ public class ReportPaths {
     }
 
     public static String getRaizImage() {
-        return getRaiz() + "imagem/";
+        return getRaiz() + "image/";
     }
 
     public static String getDirectoryReport() {

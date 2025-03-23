@@ -23,15 +23,4 @@ public class ReportsService {
                 parameters
         );
     }
-
-    public byte[] gerarEventoConsolidado(Long Variable) throws Exception {
-
-        Map<String, Object> parameters = new HashMap<>();
-        parameters.put("PARAMETER", Variable);
-
-        return jasperService.generatePdfReport(
-                ReportPaths.getDirectoryReport(),
-                parameters
-        );
-    }
 }

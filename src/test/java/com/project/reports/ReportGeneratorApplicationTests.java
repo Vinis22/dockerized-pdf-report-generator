@@ -5,11 +5,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
 @SpringBootTest
-@ActiveProfiles("test") // Força o uso do perfil "test"
+@ActiveProfiles("test") // Force use of "test" profile
 class ReportGeneratorApplicationTests {
 
 	@Test
 	void contextLoads() {
-		// Teste básico para verificar o contexto
+		// Basic test to check the context
 	}
 }

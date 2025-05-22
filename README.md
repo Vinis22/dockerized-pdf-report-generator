@@ -13,7 +13,7 @@ A Spring Boot microservice for generating PDF reports using **JasperReports**, w
 ### 📥 Clone the repository
 
 ```sh
-git clone https://github.com/your-username/report-generator.git
+git clone https://github.com/Vinis22/dockerized-pdf-report-generator.git
 cd report-generator
 ```
 
